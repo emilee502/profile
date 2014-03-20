@@ -21,10 +21,17 @@ body {
 h1 {
   padding-top: 200px;
   margin-top: 0;
+  margin-bottom: 0;
   text-align: center;
   font-family: 'Nothing You Could Do', cursive;
   font-size: 100px;
   color: white;
+}
+
+.hr {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 ul {
