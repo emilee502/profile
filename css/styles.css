@@ -78,6 +78,18 @@ img {
   padding-right: 75px;
 }
 
+p {
+  font-family: 'Merienda', cursive;
+  width: 475px;
+  text-align: center;
+  float: right;
+  position: absolute;
+  right: 30px;
+  margin-top: 408px;
+  display: block;
+  font-size: 30px;
+}
+
 .thr {
   width: 60%;
   height: 600px;
