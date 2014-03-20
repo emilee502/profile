@@ -65,24 +65,32 @@ a:link {
 
 .two {
   width: 60%;
-  height: 500px;
+  height: 750px;
   padding: 0px;
-  background: url("../img/me.png") fixed left no-repeat;
-  background-size: contain;
+  background: url("../img/point.JPG") fixed left no-repeat;
+  background-size: cover;
 }
 
 img {
   float: right;
-  width: 500px;
-  padding-top: 50px;
-  padding-right: 50px;
+  width: 400px;
+  padding-top: 150px;
+  padding-right: 75px;
 }
 
 .thr {
   width: 60%;
-  height: 500px;
+  height: 600px;
   padding: 0px;
-  background: url("../img/yarn.JPG") fixed center no-repeat;
+  background: url("../img/sand.JPG") fixed center no-repeat;
+  background-size: cover;
+}
+
+.four {
+  width: 100%;
+  height: 800px;
+  padding: 0;
+  background: url("../img/trian.JPG") fixed center no-repeat;
   background-size: cover;
 }
 
