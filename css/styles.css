@@ -16,6 +16,10 @@ div:nth-child(1) {
   padding: 0;
   background: url("../img/desk.JPG") fixed center no-repeat;
   background-size: cover;
+  transition: all 2s; 
+    -o-transition: all 2s; 
+    -moz-transition: all 2s; 
+    -webkit-transition: all 2s;
 }
 
 div:nth-child(1) h1 {
@@ -25,13 +29,20 @@ div:nth-child(1) h1 {
   text-align: center;
   font-family: 'Nothing You Could Do', cursive;
   font-size: 100px;
-  color: white;
+  color: white;transition: all 2s; 
+    -o-transition: all 2s; 
+    -moz-transition: all 2s; 
+    -webkit-transition: all 2s;
 }
 
 div:nth-child(2) {
   width: 500px;
   margin-left: auto;
   margin-right: auto;
+  transition: all 2s; 
+    -o-transition: all 2s; 
+    -moz-transition: all 2s; 
+    -webkit-transition: all 2s;
 }
 
 div:nth-child(1) ul {
@@ -39,10 +50,10 @@ div:nth-child(1) ul {
   padding: 0;
   margin: 30px auto;
   width: 513px;
-  transition: all 1s; 
-    -o-transition: all 1s; 
-    -moz-transition: all 1s; 
-    -webkit-transition: all 1s;
+  transition: all 2s; 
+    -o-transition: all 2s; 
+    -moz-transition: all 2s; 
+    -webkit-transition: all 2s;
 }
 
 div:nth-child(1) li {
@@ -61,6 +72,10 @@ a:link, a:visited, a:hover, a:active {
   font-size: 40px;
   padding: 10px 25px;
   text-decoration: none;
+  transition: all 2s; 
+    -o-transition: all 2s; 
+    -moz-transition: all 2s; 
+    -webkit-transition: all 2s;
 }
 
 div:nth-child(4) {
@@ -69,6 +84,10 @@ div:nth-child(4) {
   padding: 0px;
   background: url("../img/point.JPG") fixed left no-repeat;
   background-size: cover;
+  transition: all 2s; 
+    -o-transition: all 2s; 
+    -moz-transition: all 2s; 
+    -webkit-transition: all 2s;
 }
 
 img {
@@ -76,6 +95,10 @@ img {
   width: 400px;
   padding-top: 150px;
   padding-right: 75px;
+  transition: all 2s; 
+    -o-transition: all 2s; 
+    -moz-transition: all 2s; 
+    -webkit-transition: all 2s;
 }
 
 div:nth-child(3) {
@@ -89,12 +112,20 @@ div:nth-child(3) {
   display: block;
   font-size: 30px;
   text-decoration: none;
+  transition: all 2s; 
+    -o-transition: all 2s; 
+    -moz-transition: all 2s; 
+    -webkit-transition: all 2s;
 }
 
 .fol {
   font-size: 40px;
   text-align: left;
   margin-bottom: 80px;
+  transition: all 2s; 
+    -o-transition: all 2s; 
+    -moz-transition: all 2s; 
+    -webkit-transition: all 2s;
 }
 
 div:nth-child(3) ul {
@@ -102,6 +133,10 @@ div:nth-child(3) ul {
   text-align: center;
   padding: none;
   margin: 35px;
+  transition: all 2s; 
+    -o-transition: all 2s; 
+    -moz-transition: all 2s; 
+    -webkit-transition: all 2s;
 }
 
 div:nth-child(3) li {
@@ -110,6 +145,10 @@ div:nth-child(3) li {
   padding: 20px 0px;
   margin: 0px 20px;
   text-align: center;
+  transition: all 2s; 
+    -o-transition: all 2s; 
+    -moz-transition: all 2s; 
+    -webkit-transition: all 2s;
 }
 
 div:nth-child(3) a:link,
@@ -119,6 +158,10 @@ div:nth-child(3) a:active {
   color: white;
   background: grey;
   padding: 20px;
+  transition: all 2s; 
+    -o-transition: all 2s; 
+    -moz-transition: all 2s; 
+    -webkit-transition: all 2s;
 }
 
 div:nth-child(5) {
@@ -127,6 +170,10 @@ div:nth-child(5) {
   padding: 0px;
   background: url("../img/sand.JPG") fixed center no-repeat;
   background-size: cover;
+  transition: all 2s; 
+    -o-transition: all 2s; 
+    -moz-transition: all 2s; 
+    -webkit-transition: all 2s;
 }
 
 div:nth-child(6) {
@@ -135,6 +182,10 @@ div:nth-child(6) {
   padding: 0;
   background: url("../img/trian.JPG") fixed center no-repeat;
   background-size: cover;
+  transition: all 2s; 
+    -o-transition: all 2s; 
+    -moz-transition: all 2s; 
+    -webkit-transition: all 2s;
 }
 
 div:nth-child(6) h1 {
@@ -149,6 +200,10 @@ div:nth-child(6) h1 {
   font-family: 'Nothing You Could Do', cursive;
   font-size: 65px;
   color: black;
+  transition: all 2s; 
+    -o-transition: all 2s; 
+    -moz-transition: all 2s; 
+    -webkit-transition: all 2s;
 }
 
 div:nth-child(6) h2 {
@@ -163,6 +218,10 @@ div:nth-child(6) h2 {
   font-family: 'Nothing You Could Do', cursive;
   font-size: 65px;
   color: black;
+  transition: all 2s; 
+    -o-transition: all 2s; 
+    -moz-transition: all 2s; 
+    -webkit-transition: all 2s;
 }
 
 div:nth-child(6) p {
@@ -177,12 +236,20 @@ div:nth-child(6) p {
   font-family: 'Merienda', cursive;
   font-size: 25px;
   color: black;
+  transition: all 2s; 
+    -o-transition: all 2s; 
+    -moz-transition: all 2s; 
+    -webkit-transition: all 2s;
 }
 
 .grey {
   width: 100%;
   height: 30px;
   background-color: grey; /* #F5FFF68 */
+  transition: all 2s; 
+    -o-transition: all 2s; 
+    -moz-transition: all 2s; 
+    -webkit-transition: all 2s;
 }
 
 div:nth-child(8) {
@@ -191,6 +258,10 @@ div:nth-child(8) {
   padding: 0;
   background: url("../img/jump.jpg") fixed center no-repeat;
   background-size: cover;
+  transition: all 2s; 
+    -o-transition: all 2s; 
+    -moz-transition: all 2s; 
+    -webkit-transition: all 2s;
 }
 
 div:nth-child(8) h1 {
@@ -205,6 +276,10 @@ div:nth-child(8) h1 {
   font-family: 'Nothing You Could Do', cursive;
   font-size: 65px;
   color: white;
+  transition: all 2s; 
+    -o-transition: all 2s; 
+    -moz-transition: all 2s; 
+    -webkit-transition: all 2s;
 }
 
 div:nth-child(10) {
@@ -214,6 +289,10 @@ div:nth-child(10) {
   padding: 0;
   background: url("../img/frame.jpg") fixed bottom no-repeat;
   background-size: contain;
+  transition: all 2s; 
+    -o-transition: all 2s; 
+    -moz-transition: all 2s; 
+    -webkit-transition: all 2s;
 }
 
 div:nth-child(10) a {
@@ -228,6 +307,10 @@ div:nth-child(10) a {
   margin-right: auto;
   position: relative;
   top: 335px;
+  transition: all 2s; 
+    -o-transition: all 2s; 
+    -moz-transition: all 2s; 
+    -webkit-transition: all 2s;
 }
 
 @media (max-width: 1310px) {
