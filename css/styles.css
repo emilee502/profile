@@ -10,7 +10,7 @@ body {
     -webkit-transition: all 1s;
 }
 
-.img {
+div:nth-child(1) {
   width: 100%;
   height: 800px;
   padding: 0;
@@ -18,7 +18,7 @@ body {
   background-size: cover;
 }
 
-h1 {
+div:nth-child(1) h1 {
   padding-top: 200px;
   margin-top: 0;
   margin-bottom: 0;
@@ -28,13 +28,13 @@ h1 {
   color: white;
 }
 
-.hr {
+div:nth-child(2) {
   width: 500px;
   margin-left: auto;
   margin-right: auto;
 }
 
-ul {
+div:nth-child(1) ul {
   text-align: center;
   padding: 0;
   margin: 30px auto;
@@ -45,7 +45,7 @@ ul {
     -webkit-transition: all 1s;
 }
 
-li {
+div:nth-child(1) li {
   display: inline;
   text-align: center;
   font-family: 'Nothing You Could Do', cursive;
@@ -56,14 +56,14 @@ li {
     -webkit-transition: all 1s;
 }
 
-a:link {
+a:link, a:visited, a:hover, a:active {
   color: white;
   font-size: 40px;
   padding: 10px 25px;
   text-decoration: none;
 }
 
-.two {
+div:nth-child(4) {
   width: 60%;
   height: 750px;
   padding: 0px;
@@ -78,7 +78,7 @@ img {
   padding-right: 75px;
 }
 
-p {
+div:nth-child(3) {
   font-family: 'Merienda', cursive;
   width: 475px;
   text-align: center;
@@ -88,9 +88,40 @@ p {
   margin-top: 408px;
   display: block;
   font-size: 30px;
+  text-decoration: none;
 }
 
-.thr {
+.fol {
+  font-size: 40px;
+  text-align: left;
+  margin-bottom: 80px;
+}
+
+div:nth-child(3) ul {
+  width: 350px;
+  text-align: center;
+  padding: none;
+  margin: 35px;
+}
+
+div:nth-child(3) li {
+  font-color: black;
+  list-style: none;
+  padding: 20px 0px;
+  margin: 0px 20px;
+  text-align: center;
+}
+
+div:nth-child(3) a:link,
+div:nth-child(3) a:visited,
+div:nth-child(3) a:hover,
+div:nth-child(3) a:active {
+  color: white;
+  background: grey;
+  padding: 20px;
+}
+
+div:nth-child(5) {
   width: 60%;
   height: 600px;
   padding: 0px;
@@ -98,7 +129,7 @@ p {
   background-size: cover;
 }
 
-.four {
+div:nth-child(6) {
   width: 100%;
   height: 800px;
   padding: 0;
@@ -106,13 +137,55 @@ p {
   background-size: cover;
 }
 
+div:nth-child(6) h1 {
+  background-color: rgba(194, 188, 183, 0.8);
+  padding: 45px 60px 0 60px;
+  width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 65px;
+  color: black;
+}
+
+div:nth-child(6) h2 {
+  background-color: rgba(194, 188, 183, 0.8);
+  padding: 80px 60px 0 60px;
+  width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 65px;
+  color: black;
+}
+
+div:nth-child(6) p {
+  background-color: rgba(194, 188, 183, 0.8);
+  padding: 5px 60px 25px 60px;
+  width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  font-family: 'Merienda', cursive;
+  font-size: 25px;
+  color: black;
+}
+
 .grey {
   width: 100%;
   height: 30px;
-  color: #F5FFF6;
+  background-color: grey; /* #F5FFF68 */
 }
 
-.five {
+div:nth-child(8) {
   width: 100%;
   height: 400px;
   padding: 0;
@@ -120,13 +193,41 @@ p {
   background-size: cover;
 }
 
-.six {
+div:nth-child(8) h1 {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 70px 0px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 65px;
+  color: white;
+}
+
+div:nth-child(10) {
   width: 100%;
   height: 400px;
   bottom: 0px;
   padding: 0;
   background: url("../img/frame.jpg") fixed bottom no-repeat;
   background-size: contain;
+}
+
+div:nth-child(10) a {
+  color: white;
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 40px;
+  text-align: center;
+  width: 100%;
+  padding-left: 55px;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 335px;
 }
 
 
