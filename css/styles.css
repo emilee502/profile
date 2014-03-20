@@ -152,9 +152,7 @@ div:nth-child(3) li {
 }
 
 div:nth-child(3) a:link,
-div:nth-child(3) a:visited,
-div:nth-child(3) a:hover,
-div:nth-child(3) a:active {
+div:nth-child(3) a:visited {
   color: white;
   background: grey;
   padding: 20px;
@@ -162,6 +160,12 @@ div:nth-child(3) a:active {
     -o-transition: all 2s; 
     -moz-transition: all 2s; 
     -webkit-transition: all 2s;
+}
+
+div:nth-child(3) a:hover,
+div:nth-child(3) a:active {
+  color: grey;
+  background: white;
 }
 
 div:nth-child(5) {
